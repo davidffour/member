@@ -21,7 +21,7 @@ public class Member {
         MemberJoined memberJoined = new MemberJoined();
         BeanUtils.copyProperties(this, memberJoined);
 
-        memberJoined.setMemberStatus("READY");
+        memberJoined.setMemberStatus("NEW");
         memberJoined.publishAfterCommit();
 
         mileage.external.Forfeiture forfeiture = new mileage.external.Forfeiture();

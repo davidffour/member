@@ -1,0 +1,16 @@
+mileage\config\kafka\KafkaProcessor.class
+mileage\MemberController.class
+mileage\external\Point.class
+mileage\MemberStatusChanged.class
+mileage\MemberWithdrawn.class
+mileage\external\PointService.class
+mileage\AbstractEvent$1.class
+mileage\external\Forfeiture.class
+mileage\external\ForfeitureService.class
+mileage\AbstractEvent.class
+mileage\MemberApplication.class
+mileage\MemberJoined.class
+mileage\Member.class
+mileage\MsgSent.class
+mileage\PolicyHandler.class
+mileage\MemberRepository.class

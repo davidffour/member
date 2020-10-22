@@ -31,7 +31,7 @@ public class PolicyHandler{
             Optional<Member> memberOptional = memberRepository.findByMemberId(msgSent.getMemberId());
             Member member = memberOptional.get();
 
-            if("SUCCESS".equals(msgSent.getMessageStatus())){
+            if("SKT".equals(msgSent.getMessageStatus())){
                 member.setMemberStatus("SKT");
             }
             else {
